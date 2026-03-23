@@ -8,7 +8,7 @@ info:
     The ingest lambda accepts only `POST /observations`.
     The read lambda serves `GET /observations/latest` and `GET /observations`.
 servers:
-  - url: /
+  - url: https://xdg401rmua.execute-api.us-east-1.amazonaws.com
 tags:
   - name: ingest
   - name: read
